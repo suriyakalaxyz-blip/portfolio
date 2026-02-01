@@ -1,22 +1,142 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Portfolio</title>
+    <meta charset="UTF-8">
+    <title>Suriya | Portfolio</title>
     <style>
         body {
-            font-family: Arial;
-            text-align: center;
-            background-color: #f4f4f4;
-            padding: 50px;
+            margin: 0;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background-color: #f4f6f8;
+            color: #333;
         }
-        h1 { color: #2c3e50; }
-        p { font-size: 18px; }
+
+        header {
+            background: linear-gradient(135deg, #1f2933, #3b82f6);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+            opacity: 0.9;
+        }
+
+        section {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        h2 {
+            color: #1f2933;
+            margin-bottom: 15px;
+            border-left: 5px solid #3b82f6;
+            padding-left: 10px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+            margin-bottom: 20px;
+        }
+
+        .skills span {
+            display: inline-block;
+            background: #e0e7ff;
+            color: #1e3a8a;
+            padding: 8px 14px;
+            margin: 6px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+
+        footer {
+            background: #1f2933;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 50px;
+        }
+
+        a {
+            color: #3b82f6;
+            text-decoration: none;
+        }
     </style>
 </head>
+
 <body>
-    <h1>Hello, I am Suriya</h1>
-    <p>This is my first cloud hosted website</p>
-    <p>Created for college assignment</p>
+
+<header>
+    <h1>Suriya</h1>
+    <p>BCA Graphic Design Student | Web Developer</p>
+    <p>V.V.Vanniaperumal College for Women, Viruthunagar</p>
+</header>
+
+<section>
+    <h2>About Me</h2>
+    <div class="card">
+        <p>
+            I am a final year BCA student specializing in Graphic Design.
+            I am passionate about web development and enjoy creating
+            user-friendly and visually appealing websites.
+        </p>
+    </div>
+</section>
+
+<section>
+    <h2>Skills</h2>
+    <div class="card skills">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>C++</span>
+        <span>Python</span>
+        <span>Java</span>
+    </div>
+</section>
+
+<section>
+    <h2>Projects</h2>
+
+    <div class="card">
+        <h3>Hospital Management System</h3>
+        <p>
+            A web-based system to manage patient records, appointments,
+            and hospital operations efficiently.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>Restaurant Management System</h3>
+        <p>
+            Developed during my internship. This system manages orders,
+            customers, and billing for restaurant operations.
+        </p>
+    </div>
+
+</section>
+
+<section>
+    <h2>Contact</h2>
+    <div class="card">
+        <p>Email: <strong>yourmail@gmail.com</strong></p>
+        <p>GitHub: <a href="#">github.com/suriyakalaxyz-blip</a></p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Suriya | Portfolio</p>
+</footer>
+
 </body>
 </html>
-
